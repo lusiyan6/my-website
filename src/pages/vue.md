@@ -84,7 +84,7 @@
 git在存储文件时，每一次代码代码的提交都会创建一个与之对应的节点，git就是通过一个一个的节点来记录代码的状态的。节点会构成一个树状结构，树状结构就意味着这个树会存在分支，默认情况下仓库只有一个分支，命名为master。在使用git时，可以创建多个分支，分支与分支之间相互独立，在一个分支上修改代码不会影响其他的分支
 
 ```bash
-git branch # 查看当前分支
+   git branch # 查看当前分支
    git branch <branch name> # 创建新的分支
    git branch -d <branch name> # 删除分支
    git switch <branch name> # 切换分支
@@ -116,7 +116,7 @@ git branch # 查看当前分支
 将本地库上传git：
 
 ```bash
-git remote add origin https://github.com/lilichao/git-demo.git
+   git remote add origin https://github.com/lilichao/git-demo.git
    # git remote add <remote name> <url>
 
    git branch -M main
@@ -136,7 +136,7 @@ git remote add gitee https://gitee.com/ymhold/vue-course.git
 ### 远程库的操作的命令
 
 ```bash
-git remote # 列出当前的关联的远程库
+   git remote # 列出当前的关联的远程库
    git remote add <远程库名> <url> # 关联远程仓库
    git remote remove <远程库名>  # 删除远程库
    git push -u <远程库名> <分支名> # 向远程库推送代码，并和当前分支关联 【远程仓库获得与当前分支同名的分支】
